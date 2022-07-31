@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: rgb(216, 213, 218);
+  }
+  .wrapper .advertising, .wrapper img {
+    border-radius: 20px;
+    border-color: white;
+    padding-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+  }
+  .wrapper .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .wrapper .item1 {
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .wrapper .item-2h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+  .wrapper .grid-container-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 10px;
+  }
+  .wrapper .item2 {
+    width: 80%;
+    height: 222px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  .wrapper .item2 .item-2a {
+    text-decoration: none;
+    color: black;
+  }
+  .wrapper .grid-container-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-left: 30px;
+  }
+  .wrapper .grid-container-3 .item-3 {
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: -30px;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .wrapper {
+      width: 375px;
+    }
+    .wrapper .advertising {
+      width: 95%;
+      padding-top: 10px;
+      margin-left: 10px;
+    }
+    .wrapper .grid-container, .wrapper .grid-container-3 {
+      width: 100%;
+      grid-template-columns: auto auto;
+      margin-bottom: 0px;
+    }
+    .wrapper .grid-container-2 {
+      grid-template-columns: auto auto;
+    }
+    .wrapper .item1 {
+      margin-left: 0px;
+    }
+  }/*# sourceMappingURL=main.css.map */
